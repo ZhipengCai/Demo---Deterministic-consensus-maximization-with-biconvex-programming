@@ -7,7 +7,7 @@ Published in ECCV 2018 as **oral** presentations.
 About
 =====
 
-Consensus maximization is an effective tool for robust fitting in computer vision. This repository contains the demo for prevalent consensus maximization methods (see below for the list).
+Consensus maximization is an effective tool for robust fitting in computer vision. This repository contains the demo for prevalent consensus maximization methods (see below for the list). Some **personal** suggestions are also provided at the end of the methods list for those who want to solve their own robust fitting problems :)
 
 Please refer to the [paper](https://arxiv.org/pdf/1807.09436.pdf) for more details.
 
@@ -54,7 +54,7 @@ List of included methods
 
 10. [Our Bi-convex Programming method](https://arxiv.org/pdf/1807.09436.pdf) (called IBCO, as the abbreviation of Iterative Bi-Convex Optimization)
 
-**Some personal recommondations for choosing the method to solve your own problem**: 
+**Personal recommondations for choosing the method to solve your own problem**: 
 
 + The runtime of random methods is exponential to the proportion of outliers and the dimension of the problem. If you know that your robust fitting problem does not have a large proportion of outliers (e.g. < 50%) and a large dimension (say within 10), random methods are very efficient and usually provides reasonable results. Try method 4~6 in this case.
 
