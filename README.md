@@ -26,9 +26,9 @@ prohibited without the authors' consent. Please acknowledge the authors by citin
 ```
 in any academic publications that have made use of this package or part of it.
 
-
+------------------------
 List of included methods
-========================
+------------------------
 
 +Random methods:
 
@@ -54,8 +54,9 @@ List of included methods
 
 10. [Our Bi-convex Programming method](https://arxiv.org/pdf/1807.09436.pdf)
 
+-----------------------------------------
 List of robust fitting problems addressed
-=========================================
+-----------------------------------------
 
 +Linear:
 
