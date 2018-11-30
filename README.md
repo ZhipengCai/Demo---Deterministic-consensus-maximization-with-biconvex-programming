@@ -60,7 +60,7 @@ List of included methods
 
 + For high outlier rates, try deterministic methods. Try method 8 if you want the highest efficiency. Method 10 usually returns the best solution among all deterministic methods.
 
-+ Use Random methods + method 10 if you want the best solution. Method 10 is highly suitable for refining the solution of other local methods. Usually it is capable of increasing the consensus size of a random method by more than 10%. In practice, if you have high outlier rate or high dimension, you can terminate random methods earlier and give the current best solution to method 10. 
++ Use Random methods + method 10 if you want the best solution. Method 10 is highly suitable for refining the solution of other local methods. Usually it is capable of increasing the consensus size of a random method by more than 10%. In practice, if you have a high outlier rate or a high dimension, you can terminate random methods earlier and give the current best solution to method 10. 
 
 -----------------------------------------
 List of robust fitting problems addressed
