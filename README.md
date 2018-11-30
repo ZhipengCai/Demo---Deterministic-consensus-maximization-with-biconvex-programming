@@ -1,8 +1,10 @@
 # Demo---Deterministic-consensus-maximization-with-biconvex-programming
 
-An efficient and deterministic consensus maximization method. Published in ECCV 2018 as **oral** presentations.
+An efficient and deterministic consensus maximization method. 
 
-[Paper](https://arxiv.org/pdf/1807.09436.pdf)
+Published in ECCV 2018 as **oral** presentations.
+
+[[Paper](https://arxiv.org/pdf/1807.09436.pdf)]
 
 About
 =====
