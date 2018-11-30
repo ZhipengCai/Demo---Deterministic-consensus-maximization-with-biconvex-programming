@@ -4,12 +4,12 @@ An efficient and deterministic consensus maximization method.
 
 Published in ECCV 2018 as **oral** presentations.
 
-[[Paper](https://arxiv.org/pdf/1807.09436.pdf)]
-
 About
 =====
 
-Consensus maximization is an effective tool for robust fitting in computer vision. This repository contains the demo for prevalent consensus maximization methods (see below for the list). Please refer to the paper for more details.
+Consensus maximization is an effective tool for robust fitting in computer vision. This repository contains the demo for prevalent consensus maximization methods (see below for the list). 
+
+Please refer to the [paper](https://arxiv.org/pdf/1807.09436.pdf) for more details.
 
 The demo is free for non-commercial academic use. Any commercial use is strictly 
 prohibited without the authors' consent. Please acknowledge the authors by citing:
