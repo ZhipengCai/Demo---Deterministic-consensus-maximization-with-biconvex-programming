@@ -26,6 +26,7 @@ prohibited without the authors' consent. Please acknowledge the authors by citin
 ```
 in any academic publications that have made use of this package or part of it.
 
+
 List of included methods
 ========================
 
@@ -53,6 +54,20 @@ List of included methods
 
 10. [Our Bi-convex Programming method](https://arxiv.org/pdf/1807.09436.pdf)
 
+List of robust fitting problems addressed
+=========================================
 
++Linear:
 
+1. Linear regression
+
++Nonlinear:
+
+2. Homography estimation
+
+3. Triangulation
+
++With non-convex constraints:
+
+4. Fundamental matrix estimation (the rank-2 constraint)
 
