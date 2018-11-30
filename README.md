@@ -7,7 +7,7 @@ Published in ECCV 2018 as **oral** presentations.
 About
 =====
 
-Consensus maximization is an effective tool for robust fitting in computer vision. This repository contains the demo for prevalent consensus maximization methods (see below for the list). Some **personal** suggestions are also provided at the end of the methods list for those who want to solve their own robust fitting problems :)
+Consensus maximization is an effective tool for robust fitting in computer vision. This repository contains the demo for prevalent consensus maximization methods (see below for the list). If you want to use some of the included methods to solve your own robust fitting problem, some personal suggestions are provided at the end of the method list :)
 
 Please refer to the [paper](https://arxiv.org/pdf/1807.09436.pdf) for more details.
 
