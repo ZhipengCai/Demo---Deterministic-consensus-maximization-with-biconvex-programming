@@ -60,15 +60,15 @@ List of robust fitting problems addressed
 
 + Linear:
 
-1. Linear regression
+++ Linear regression
 
 + Nonlinear:
 
-2. Homography estimation
+++ Homography estimation
 
-3. Triangulation
+++ Triangulation
 
 + With non-convex constraints:
 
-4. Fundamental matrix estimation (the rank-2 constraint)
+++ Fundamental matrix estimation (the rank-2 constraint)
 
