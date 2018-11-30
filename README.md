@@ -54,7 +54,7 @@ List of included methods
 
 10. [Our Bi-convex Programming method](https://arxiv.org/pdf/1807.09436.pdf)
 
-**Some personal recommondations for choosing the method**: 
+**Some personal recommondations for choosing the method to solve your own problem**: 
 
 + If you know that your robust fitting problem does not have a large proportion of outliers (e.g. < 50%) and a large dimension (say within 10), random methods are very efficient and usually provides reasonable results. Use method 4~6 for this case.
 
