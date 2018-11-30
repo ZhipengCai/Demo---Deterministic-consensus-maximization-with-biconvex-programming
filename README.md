@@ -58,7 +58,7 @@ List of included methods
 
 + The runtime of random methods is exponential to the proportion of outliers and the dimension of the problem. If you know that your robust fitting problem does not have a large proportion of outliers (e.g. < 50%) and a large dimension (say within 10), random methods are very efficient and usually provides reasonable results. Use method 4~6 for this case.
 
-+ The runtime of deterministic methods is linear to the size of input data. They are fast if the data size is not extremely large. If you have small/ moderate sized data but with high outlier rates, try deterministic methods. Try SS if you want the highest efficiency. IBCO usually returns the best solution among all deterministic methods.
++ The runtime of deterministic methods is linear to the size of input data. They are fast if the data size is not extremely large. If you have small/moderate sized data but with high outlier rates, try deterministic methods. Try SS if you want the highest efficiency. IBCO usually returns the best solution among all deterministic methods.
 
 + Use Random methods + IBCO if you want the best solution. IBCO is highly suitable for refining the solution of other local methods. Usually it is capable of increasing the consensus size of a random method by more than 10%. In practice, if you have a high outlier rate or a high dimension, you can terminate random methods earlier and give the current best solution to IBCO. 
 
