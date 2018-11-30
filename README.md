@@ -30,7 +30,7 @@ in any academic publications that have made use of this package or part of it.
 List of included methods
 ------------------------
 
-+Random methods:
++ Random methods:
 
 1. [RANSAC](http://delivery.acm.org/10.1145/360000/358692/p381-fischler.pdf?ip=129.127.229.14&id=358692&acc=ACTIVE%20SERVICE&key=65D80644F295BC0D%2E001A23AA3BABC648%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1543556593_784052ca099a175d04afeade036d626c)
 
@@ -44,7 +44,7 @@ List of included methods
 
 6. [USAC](http://people.inf.ethz.ch/pomarc/pubs/RaguramPAMI13.pdf)
 
-+Deterministic methods:
++ Deterministic methods:
 
 7. [The Exact Penalty (EP) method](https://arxiv.org/pdf/1710.10003.pdf)
 
@@ -58,17 +58,17 @@ List of included methods
 List of robust fitting problems addressed
 -----------------------------------------
 
-+Linear:
++ Linear:
 
 1. Linear regression
 
-+Nonlinear:
++ Nonlinear:
 
 2. Homography estimation
 
 3. Triangulation
 
-+With non-convex constraints:
++ With non-convex constraints:
 
 4. Fundamental matrix estimation (the rank-2 constraint)
 
