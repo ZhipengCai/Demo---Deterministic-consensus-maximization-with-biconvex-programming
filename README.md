@@ -56,7 +56,7 @@ List of included methods
 
 10. [Our Bi-convex Programming method](https://arxiv.org/pdf/1807.09436.pdf) (called IBCO, as the abbreviation of Iterative Bi-Convex Optimization)
 
-**Personal recommondations for choosing the method to solve your own problem**: 
+**(personal) Tips for method choosing**: 
 
 + The runtime of random methods is exponential to 1) the proportion of outliers and 2) the dimension of the problem. If you know that your problem does not have a large proportion of outliers (e.g. < 50%) and a large dimension (say within 10), random methods are very efficient and usually provides reasonable results. Try method 4~6 in this case.
 
