@@ -1,13 +1,13 @@
 # Demo---Deterministic-consensus-maximization-with-biconvex-programming
 
-An efficient and deterministic consensus maximization method. 
+An efficient and deterministic consensus maximization method called IBCO (as the abbreviation of Iterative Bi-Convex Optimization). 
 
 Published in ECCV 2018 as **oral** presentations.
 
 About
 =====
 
-Consensus maximization is an effective tool for robust fitting in computer vision. This repository contains the demo for prevalent consensus maximization methods (see below for the list). 
+Consensus maximization is an effective tool for robust fitting in computer vision. This repository contains the demo for IBCO and other prevalent consensus maximization methods (see below for the list). 
 
 If you want to try some methods for your own problem, some personal suggestions are provided at the end of the method list :)
 
@@ -64,8 +64,7 @@ List of included methods
 
 9. [The ADMM-based method](http://bmvc2018.org/contents/papers/0568.pdf) (to be added)
 
-10. [Our Bi-convex Programming method](https://arxiv.org/pdf/1807.09436.pdf) (called IBCO, as the abbreviation of Iterative Bi-Convex Optimization)
-
+10. [IBCO](https://arxiv.org/pdf/1807.09436.pdf) 
 **(personal) Tips for method choosing**: 
 
 + The runtime of random methods is exponential to 1) the proportion of outliers and 2) the dimension of the problem. If your problem does not have much outliers (say < 50%) and a large dimension (say within 10), random methods are very efficient and usually provide reasonable results. Try method 4~6 in this case.
