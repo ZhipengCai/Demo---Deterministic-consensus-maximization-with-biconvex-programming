@@ -75,7 +75,7 @@ List of included methods
 + Deterministic methods need good initialization to guarantee their solution quality. Try random methods + IBCO if you want the best solution. IBCO is highly suitable for refining the solution of other local methods. Usually it is capable of increasing the consensus size of RANSAC by more than 10%. In practice, if you want high efficiency for problems with high outlier rates or high dimensions, you can terminate random methods earlier and give the current best solution to IBCO. 
 
 -----------------------------------------
-List of robust fitting problems addressed
+List of addressed problems in the demo
 -----------------------------------------
 
 **Linear**:
@@ -92,8 +92,15 @@ List of robust fitting problems addressed
 
 4. Fundamental matrix estimation (the rank-2 constraint)
 
-Method overview for IBCO
-========================
+IBCO - Introduction
+===================
+
+IBCO bisects over all possible consensus size and returns the largest one such that the decision version of the consensus maximization problem is feasible. 
+
+The major contribution of IBCO is a "lifted" decision version of the consensus maximization problem, which is equivalent to the original problem and is a bi-convex optimization problem, which can be efficiently solved via standard bi-convex programming.
+
+Getting Started
+===============
 
 
 
