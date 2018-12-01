@@ -95,9 +95,9 @@ List of addressed problems in the demo
 IBCO - Introduction
 ===================
 
-IBCO bisects over all possible consensus size and returns the largest one such that the decision version of the consensus maximization problem is feasible. 
+IBCO bisects over all possible consensus sizes and returns the largest one such that the decision version of the consensus maximization problem (briefed as "decision problem" later on) is feasible. 
 
-The major contribution of IBCO is a "lifted" decision version of the consensus maximization problem, which is equivalent to the original problem and is a bi-convex optimization problem, which can be efficiently solved via standard bi-convex programming.
+The major contribution of IBCO is a "lifted" decision problem, which is equivalent to the original problem and bi-convex. Using this lifted form, we can solve each decision problem efficiently by standard bi-convex optimization.
 
 Getting Started
 ===============
