@@ -102,5 +102,13 @@ The major contribution of IBCO is a "lifted" decision problem, which is equivale
 Getting Started
 ===============
 
+The demo has been tested on Linux (Ubuntu 14.04 LTS 64-bit). Except USAC whose source code is in C++, all other methods are implemented using MATLAB. 
+
+Due to the different language, we currently do not include USAC in the main demo, while the source code is provided.
+
+-------------
+Pre-requisite
+-------------
+
 
 
