@@ -112,7 +112,9 @@ Due to different languages, we currently do not include USAC in the main demo, w
 Run the demo
 -------------
 
-Just Clone the repository and Run function "demo()" in your matlab.
+1. Clone this repository. 
+
+2. Run function "demo()" in MATLAB.
 
 Please refer to "demo.m" file for detailed code explanations.
 
