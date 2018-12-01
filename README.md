@@ -65,6 +65,7 @@ List of included methods
 9. [The ADMM-based method](http://bmvc2018.org/contents/papers/0568.pdf) (to be added)
 
 10. [IBCO](https://arxiv.org/pdf/1807.09436.pdf) 
+
 **(personal) Tips for method choosing**: 
 
 + The runtime of random methods is exponential to 1) the proportion of outliers and 2) the dimension of the problem. If your problem does not have much outliers (say < 50%) and a large dimension (say within 10), random methods are very efficient and usually provide reasonable results. Try method 4~6 in this case.
