@@ -29,6 +29,16 @@ prohibited without the authors' consent. Please acknowledge the authors by citin
 in any academic publications that have made use of this package or part of it.
 
 ------------------------
+Contact
+------------------------
+
+Homepage:https://zhipengcai.github.io/
+
+Email: zhipeng.cai@adelaide.edu.au
+
+Do not hesitate to contact the authors if you have any question or find any bugs :)
+
+------------------------
 List of included methods
 ------------------------
 
@@ -58,11 +68,11 @@ List of included methods
 
 **(personal) Tips for method choosing**: 
 
-+ The runtime of random methods is exponential to 1) the proportion of outliers and 2) the dimension of the problem. If you know that your problem does not have a large proportion of outliers (e.g. < 50%) and a large dimension (say within 10), random methods are very efficient and usually provides reasonable results. Try method 4~6 in this case.
++ The runtime of random methods is exponential to 1) the proportion of outliers and 2) the dimension of the problem. If your problem does not have much outliers (say < 50%) and a large dimension (say within 10), random methods are very efficient and usually provide reasonable results. Try method 4~6 in this case.
 
-+ The runtime of deterministic methods is polynomial to the size of input data. If your data is not extremely large, deterministic methods are fast even with high outlier rates. Try SS if you want the highest efficiency. IBCO usually returns the best solution among all deterministic methods.
++ The runtime of deterministic methods is polynomial to the size of input data. If your data size is not extremely large, deterministic methods are fast even with high outlier rates. Try SS (method 8) if you want the highest efficiency. IBCO (method 10) usually returns the best solution among all deterministic methods.
 
-+ Try random methods + IBCO if you want the best solution. IBCO is highly suitable for refining the solution of other local methods. Usually it is capable of increasing the consensus size of a random method by more than 10%. In practice, if you have a high outlier rate or a high dimension, you can terminate random methods earlier and give the current best solution to IBCO. 
++ Deterministic methods need good initialization to guarantee their solution quality. Try random methods + IBCO if you want the best solution. IBCO is highly suitable for refining the solution of other local methods. Usually it is capable of increasing the consensus size of RANSAC by more than 10%. In practice, if you want high efficiency for problems with high outlier rates or high dimensions, you can terminate random methods earlier and give the current best solution to IBCO. 
 
 -----------------------------------------
 List of robust fitting problems addressed
