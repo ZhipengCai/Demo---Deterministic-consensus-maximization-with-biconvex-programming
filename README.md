@@ -86,7 +86,7 @@ List of addressed problems in the demo
 
 2. Homography estimation
 
-3. Triangulation
+3. Triangulation (to be added)
 
 **With non-convex constraints**:
 
@@ -102,13 +102,22 @@ The major contribution of IBCO is a "lifted" decision problem, which is equivale
 Getting Started
 ===============
 
-The demo has been tested on Linux (Ubuntu 14.04 LTS 64-bit). Except USAC whose source code is in C++, all other methods are implemented using MATLAB. 
+The demo has been tested on Linux (Ubuntu 14.04 LTS 64-bit). Except USAC whose source code is in C++, all other methods are implemented using MATLAB 2017a. 
 
-Due to the different language, we currently do not include USAC in the main demo, while the source code is provided.
+Due to different languages, we currently do not include USAC in the main demo, while the source code is provided.
 
 -------------
-Pre-requisite
+Run the demo
 -------------
 
+Just Clone the repository and Run function "demo()" in your matlab.
+
+Please refer to "demo.m" file for detailed code explanations.
+
+------------------------
+(Optional) Enable Gurobi
+-------------------------
+
+This demo uses 'sedumi' as the default linear programming solver, which is used in EP and SS. [Gurobi](http://www.gurobi.com/) was used instead in our experiments, which is faster than 'sedumi'. If you have a valid license, you can follow the instruction in the "demo.m" file to switch 'sedumi' to 'Gurobi'.
 
 
