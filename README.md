@@ -92,5 +92,8 @@ List of robust fitting problems addressed
 
 4. Fundamental matrix estimation (the rank-2 constraint)
 
+Method overview for IBCO
+========================
+
 
 
