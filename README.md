@@ -118,6 +118,8 @@ Please refer to "demo.m" file for detailed code explanations.
 (Optional) Enable Gurobi
 -------------------------
 
-This demo uses 'sedumi' as the default linear programming solver, which is used in EP and SS. [Gurobi](http://www.gurobi.com/) was used instead in our experiments, which is faster than 'sedumi'. If you have a valid license, you can follow the instruction in the "demo.m" file to switch 'sedumi' to 'Gurobi'.
+This demo uses 'sedumi' as the default linear programming solver, which is used in EP and SS. [Gurobi](http://www.gurobi.com/) was used instead in our experiments, which is faster than 'sedumi'. 
+
+If you have a valid license, you can follow the instruction in the "demo.m" file to switch 'sedumi' to 'Gurobi'.
 
 
