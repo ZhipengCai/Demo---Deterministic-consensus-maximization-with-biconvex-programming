@@ -72,9 +72,9 @@ List of included methods
 
 + The runtime of deterministic methods is polynomial to the size of input data. If your data size is not extremely large, deterministic methods are fast even with high outlier rates. Try SS (method 8) if you want the highest efficiency. IBCO (method 10) usually returns the best solution among all deterministic methods.
 
-+ Combining random methods and deterministic methods is an effective strategy. Deterministic methods are sensitive to initializations, but usually perform better than random methods given a good initial solution. Random methods are not sensitive to initializations. Though not perfect, their solutions are usually good enough for initializing the deterministic methods. 
++ Using random methods to initialize deterministic methods is an effective strategy. Deterministic methods are sensitive to initializations, but usually perform better than random methods with a reasonable initial solution. Random methods are capable of returning a reasonable solution, regardless of the initialization. Try LO-RANSAC + IBCO. IBCO is highly suitable for refining the solution of other local methods. Usually it is capable of increasing the consensus size of RANSAC variants by more than 10%. 
 
-+ Try LO-RANSAC + IBCO if you want the best solution. IBCO is highly suitable for refining the solution of other local methods. Usually it is capable of increasing the consensus size of RANSAC variants by more than 10%. In practice, if you want high efficiency for problems with high outlier rates or high dimensions, you can terminate random methods earlier and give the current best solution to IBCO. 
++ In practice, if you want high efficiency for problems with high outlier rates or high dimensions, you can terminate random methods earlier and give the current best solution to IBCO. 
 
 -----------------------------------------
 List of addressed problems in the demo
