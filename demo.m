@@ -56,14 +56,14 @@ disp('press any key to start demo for homography estimation'); pause;
 %ratio of correspondences to plot (1 represent to plot all correspondenecs)
 corrPlotRateHomo = 1;
 % number of runs for each method (recommend to run 50 times to reduce the effect of randomness)
-NoRunsHomo = 10;
+NoRunsHomo = 1;
 demoHomo(corrPlotRateHomo, NoRunsHomo); % Demo for real data; ('ave' in the plot means average; 'dev' in the result means standard deviation)
 % 
 disp('press any key to start demo for fundamental matrix estimation'); pause;
 %ratio of correspondences to plot (1 represent to plot all correspondenecs)
 corrPlotRateFun = 1;
 % number of runs for each method (recommend to run 50 times to reduce the effect of randomness)
-NoRunsFun = 10; 
+NoRunsFun = 1; 
 demoFun(corrPlotRateFun, NoRunsFun); % Demo for real data; ('ave' in the plot means average; 'dev' in the result means standard deviation)
 
     function demoLinSynth()
