@@ -4,6 +4,8 @@ An efficient and deterministic consensus maximization method called IBCO (as the
 
 Published in ECCV 2018 as **oral** presentations.
 
+![alt text](https://github.com/ZhipengCai/ZhipengCai.github.io/blob/master/papers/ECCV18_IBCO.png " ")
+
 About
 =====
 
