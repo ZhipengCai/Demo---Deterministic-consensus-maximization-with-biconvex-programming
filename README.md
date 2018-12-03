@@ -4,6 +4,8 @@ An efficient and deterministic consensus maximization method called IBCO (as the
 
 Published in ECCV 2018 as **oral** presentations.
 
+[[Paper](https://arxiv.org/pdf/1807.09436.pdf)]
+
 ![alt text](https://github.com/ZhipengCai/ZhipengCai.github.io/blob/master/papers/ECCV18_IBCO.png " ")
 
 About
@@ -12,8 +14,6 @@ About
 Consensus maximization is an effective tool for robust fitting in computer vision. This repository contains the demo for IBCO and other prevalent consensus maximization methods (see below for the list). 
 
 If you want to try some methods for your own problem, some personal suggestions are provided at the end of the method list :)
-
-Please refer to the [paper](https://arxiv.org/pdf/1807.09436.pdf) for more details.
 
 The demo is free for non-commercial academic use. Any commercial use is strictly 
 prohibited without the authors' consent. Please acknowledge the authors by citing:
