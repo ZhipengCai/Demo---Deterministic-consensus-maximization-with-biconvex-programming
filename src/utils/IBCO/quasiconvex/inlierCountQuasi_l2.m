@@ -14,15 +14,21 @@ function [nInls] = inlierCountQuasi_l2(A, b, c, d, x ,th, normalizeH)
     d1 = size(A,1)/nbrimages;
     AxPb = reshape(A*x,d1,nbrimages) + b; % Ax + b
     Sqrt_AxPb = sqrt(sum(AxPb.^2));                     % sqrt(Ax + b)
-    if(numel(d) == 0)
-        CxPd = 1;
-    else
+%     if(numel(d) == 0)
+%         CxPd = 1;
+%     else
+%         CxPd = (x'*c + d);
+%     end
+    if(numel(d) > 0 && numel(c) > 0)
         CxPd = (x'*c + d);
+    elseif(numel(c)>0)
+        CxPd = x'*c;
+    else
+        CxPd = ones(1,nbrimages);
     end
-    
     resn = zeros(nbrimages, 1);
     id = abs(CxPd)>0.01;    
-    resn(id) = Sqrt_AxPb(id)./abs(CxPd(id));
+    resn(id) = Sqrt_AxPb(id)./CxPd(id);
     resn(~id) = 100000000*max(resn);
-    nInls = numel(find(abs(resn) <= th)); 
+    nInls = numel(find(resn <= th & resn >=0)); 
 end
